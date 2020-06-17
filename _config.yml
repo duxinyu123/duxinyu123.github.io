@@ -1,9 +1,9 @@
 # Site settings
-title: DXY Blog
-SEOTitle: 新宇的博客 | DXY Blog
+title: XY Blog
+SEOTitle: 新宇的博客 | XY Blog
 header-img: img/post-bg-desk.jpg
 email: duxinyu0422@163.com
-description: "Keep on going never give up."
+description: "Stay hungry! Stay foolish!"
 keyword: "DXY, DXY Blog, 新宇的博客, duxinyu, 杜新宇, AI, ML, mechine learning"
 url: "http://duxinyu123.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -11,7 +11,7 @@ github_repo: "https://github.com/duxinyu123/duxinyu123.github.io.git" # you code
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Goals determine what you going to be!"
+sidebar-about-description: "Keep on going never give up!"
 sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
