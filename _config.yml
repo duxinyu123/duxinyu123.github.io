@@ -1,6 +1,5 @@
 # Site settings
-title: XY Blog
-subheading: "Stay hungry! Stay foolish!"
+title: 新宇的博客
 SEOTitle: 新宇的博客 | XY Blog
 header-img: img/post-bg-desk.jpg
 email: duxinyu0422@163.com
@@ -19,11 +18,11 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-zhihu_username:     qiubaiying
-github_username:    qiubaiying
-facebook_username:  baiying.qiu.7
-jianshu_username:   e71990ada2fd
+# weibo_username:     duxinyu
+# zhihu_username:     duxinyu
+github_username:    duxinyu123
+# facebook_username:  baiying.qiu.7
+jianshu_username:   f6291df86540
 #twitter_username:   qiubaiying
 
 
@@ -58,16 +57,16 @@ kramdown:
 
 # 评论系统
 # Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+# disqus_username: duxinyu
 
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-  repo: qiubaiying.github.io    #仓库名称
-  owner: qiubaiying    #github用户名
-  admin: qiubaiying
+  clientID: 36081d8056ecd8b479dc                            #生成的clientID
+  clientSecret: 75a845df9cadcc1b28d800f4b33041fbdcf60683    #生成的clientSecret
+  repo: duxinyu123.github.io    #仓库名称
+  owner: duxinyu123    #github用户名
+  admin: duxinyu123
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
