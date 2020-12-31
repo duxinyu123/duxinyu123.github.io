@@ -134,6 +134,8 @@ print(p.print_info())
 3. try except 捕获的错误，可以用as为它起别名
 4. try except 只能捕获runtime产生的异常
 
+捕获异常的完整语句
+
 ```
 try:
     print(num)
@@ -145,6 +147,29 @@ finally:
     print('不管是否出现异常，都会执行到')
 ```
 
+5. 自定义异常要继承自Exception类，通过raise抛出异常
+
+```
+class InputException(Exception):
+    def __init__(self, length, min_len):
+        self.length = length
+        self.min_len = min_len
+
+    def __str__(self):
+        return f'当前密码长度为{self.length}，密码长度不能小于{self.min_len}'
+
+
+if __name__ == '__main__':
+    min_len = 3
+    password = input('请输入密码:')
+    try:
+        if len(password) < min_len:
+            raise InputException(len(password), min_len)
+    except Exception as e:
+        print(e)
+    else:
+        print('密码设置完成！')
+```
 
 
 
