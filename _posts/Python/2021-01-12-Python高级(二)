@@ -1,0 +1,61 @@
+---
+layout:     post                    # 使用的布局（不需要改）
+title:      Python高级语法(二)    		# 标题 
+subtitle:    						#副标题
+date:       2021-01-12              # 时间
+author:     新宇                     # 作者
+header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
+catalog: true                       # 是否归档
+tags:                               #标签
+    - Python
+---
+
+# 一、property属性
+## 1.作用：把方法的调用变成属性调用
+
+```python
+class Person():
+    def __init__(self):
+        self.__age = 0
+
+    @property
+    def age(self):
+        return self.__age
+
+    @age.setter
+    def age(self,age):
+        self.__age = age
+
+
+p = Person()
+p.age = 10
+print(p.age)
+```
+
+## 2.类属性方式
+
+```python
+class Person():
+    def __init__(self):
+        self.__age = 0
+
+    def get_age(self):
+        print('这里获取了age')
+        return self.__age
+
+    def set_age(self,age):
+        print('这里设置了age')
+        self.__age = age
+
+    # 属性中第一个是get方法 第二个是set方法
+    
+    age = property(get_age, set_age)
+
+
+p = Person()
+p.age = 10
+print(p.age)
+```
+
+
+# 二、with上下文管理
