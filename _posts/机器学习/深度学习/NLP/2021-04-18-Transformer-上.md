@@ -1,7 +1,7 @@
 ---
 layout:     post                    # 使用的布局（不需要改）
 title:      Transformer-上		        # 标题 
-subtitle:   整体介绍、架构图  	# 副标题
+subtitle:   整体介绍、架构图、输入部分、编码器实现  	# 副标题
 date:       2021-04-17              # 时间
 author:     新宇                     # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
@@ -595,7 +595,7 @@ class Encoder(nn.Module):
         # 首先就是对我们克隆的编码器层进行循环，每次都会得到一个新的x，
         # 这个循环的过程，就相当于输出的x经过了N个编码器层的处理. 
         # 最后再通过规范化层的对象self.norm进行处理，最后返回结果. 
-        
+
         for layer in self.layers:
             x = layer(x, mask)
         return self.norm(x)
