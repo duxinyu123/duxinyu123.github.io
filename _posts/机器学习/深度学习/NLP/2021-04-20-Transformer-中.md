@@ -2,7 +2,7 @@
 layout:     post                    # 使用的布局（不需要改）
 title:      Transformer-中		        # 标题 
 subtitle:   解码器、输出部分、模型构建 	# 副标题
-date:       2021-04-18              # 时间
+date:       2020-10-18              # 时间
 author:     新宇                     # 作者
 header-img: img/post-bg-2015.jpg    #这篇文章标题背景图片
 catalog: true                       # 是否归档
