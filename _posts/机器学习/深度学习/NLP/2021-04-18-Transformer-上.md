@@ -35,6 +35,10 @@ tags:                               # 标签
 		- ![](https://tva1.sinaimg.cn/large/008i3skNly1gpsik7cuo2j30jh0f5q4y.jpg)
 
 
+- self-attention如何计算
+    - ![](https://tva1.sinaimg.cn/large/008i3skNly1gr1ou62rzcj30sm0l979u.jpg)
+    - ![](https://tva1.sinaimg.cn/large/008i3skNly1gr1otrtr8lj30sp0k2ags.jpg)
+
 # 三、代码实现
 ## 1. 输入部分实现
 - 输入部分包含:
