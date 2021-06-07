@@ -38,6 +38,7 @@ tags:                               # 标签
 - self-attention如何计算
     - ![](https://tva1.sinaimg.cn/large/008i3skNly1gr1ou62rzcj30sm0l979u.jpg)
     - ![](https://tva1.sinaimg.cn/large/008i3skNly1gr1otrtr8lj30sp0k2ags.jpg)
+    - ![](https://tva1.sinaimg.cn/large/008i3skNly1gr1p8468w1j30so0lcjw3.jpg)
 
 # 三、代码实现
 ## 1. 输入部分实现
